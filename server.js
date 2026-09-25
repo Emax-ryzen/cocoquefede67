@@ -19,7 +19,7 @@ app.post("/cadastro", async (req, res) => {
         });
     }
 
-    if (DISCORD_WEBHOOK_URL === "COLE_SEU_WEBHOOK_AQUI") {
+    if (DISCORD_WEBHOOK_URL === "https://discord.com/api/webhooks/1552868105112391741/5nMuSsLpnbjvrxsf4i1ra8uA-w39Zn_cAYdYm3Z7dtsKdmcietg9WB94zuvoH8jXqLqb") {
         return res.status(500).json({
             sucesso: false,
             mensagem: "Configure o Webhook do Discord no server.js."
