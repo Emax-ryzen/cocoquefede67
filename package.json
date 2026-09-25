@@ -1,0 +1,12 @@
+{
+    "name": "site-cadastro-discord",
+    "version": "1.0.0",
+    "description": "Site de cadastro integrado ao Discord",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "^4.21.2"
+    }
+}
